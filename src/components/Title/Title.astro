@@ -1,0 +1,23 @@
+---
+import "./Title.scss";
+
+interface Props {
+  title: string;
+  title2: string;
+  subtitle: string;
+}
+
+const { title, title2, subtitle } = Astro.props;
+---
+
+<div class="title">
+  {title}
+
+  <br />
+
+  {title2}
+</div>
+
+<h2>{subtitle}</h2>
+
+<hr class="solid" />
