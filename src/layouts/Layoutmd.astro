@@ -1,6 +1,7 @@
 ---
 import Header from "@components/Header/Header.astro";
 import "./Layout.astro";
+import Title from "@components/Title/Title.astro";
 
 const { frontmatter } = Astro.props;
 ---
@@ -19,6 +20,12 @@ const { frontmatter } = Astro.props;
     <Header />
 
     <div class="container">
+      <Title
+        title={frontmatter.title}
+        title2=""
+        subtitle={`Post by: ${frontmatter.author}`}
+      />
+
       <slot />
     </div>
   </body>

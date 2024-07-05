@@ -1,0 +1,31 @@
+---
+import "./BlogPreview.scss";
+
+interface Props {
+  post: any;
+}
+
+const { post } = Astro.props;
+---
+
+<div class="card">
+  <div class="card__content">
+    <div class="card__content-leftSide">
+      <h2>{post.frontmatter.title}</h2>
+
+      <div>
+        <p>{post.frontmatter.desc}</p>
+
+        <p>{post.frontmatter.author}</p>
+
+        <p>{post.frontmatter.date}</p>
+
+        <a href={post.url}>Read post</a>
+      </div>
+    </div>
+
+    <div class="card__content-rightSide">
+      <img src={post.frontmatter.image} alt="image" />
+    </div>
+  </div>
+</div>

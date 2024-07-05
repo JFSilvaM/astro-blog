@@ -1,7 +1,7 @@
 ---
 layout: "@layouts/Layoutmd.astro"
 title: Learn Javascript
-date: 04 Jun 2024
+date: 04 Jun 2022
 author: João Francisco Silva Malheiro
 desc: Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ipsam, repellendus blanditiis dolor obcaecati eveniet nemo itaque odio deleniti excepturi esse, perferendis, iste distinctio eligendi molestiae repudiandae magni laboriosam deserunt! Js
 image: https://cdn.pixabay.com/photo/2016/03/27/18/54/technology-1283624_1280.jpg

@@ -1,7 +1,7 @@
 ---
 layout: "@layouts/Layoutmd.astro"
 title: HTML Structure
-date: 04 Jun 2024
+date: 04 Jun 2020
 author: João Francisco Silva Malheiro
 desc: Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ipsam, repellendus blanditiis dolor obcaecati eveniet nemo itaque odio deleniti excepturi esse, perferendis, iste distinctio eligendi molestiae repudiandae magni laboriosam deserunt! Html
 image: https://cdn.pixabay.com/photo/2015/10/27/14/40/programming-1009134_1280.jpg
